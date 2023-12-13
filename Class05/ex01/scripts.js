@@ -25,6 +25,7 @@ console.log(`access by tag==========`);
 let paragraph =document.getElementsByTagName("p");
 console.log(`paragraph length ${paragraph.length}`);
 
+
 console.log("=============Acces by css selectors");
 let firstDivwithClass= document.querySelector(".myDiv");
 console.log(firstDivwithClass);
