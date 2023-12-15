@@ -1,6 +1,6 @@
-function weightInChicken(weight)
+function weightInChicken(weight, weightInKg = 0.5)
 {
-  let weightInKg = weight *0.5;
+  let weightInKg = weight * weightInKg;
   return weightInKg;
 
 }
