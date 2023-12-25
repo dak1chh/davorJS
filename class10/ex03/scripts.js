@@ -1,0 +1,17 @@
+let myButton = document.getElementById("myButton");
+
+function makeAjaxApiCall() {
+
+        $.ajax({url:`https://swapi.dev/api/planets/1`,
+        success: function(result) {
+            console.log(result)
+        },
+        error: function(error){
+            console.log(`The api didnt return anything`)
+            console.log(error);
+        }
+    })
+        
+    }
+    
+    myButton.addEventListener(`click`, makeAjaxApiCall);

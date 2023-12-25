@@ -220,3 +220,6 @@ console.log(joinArray(joinArrayVar));
 // // console.log(typeof(arrayOf10[3]));
 // let resultArray = removeFalsyValues(arrayOf10);
 // console.log(resultArray);
+
+
+

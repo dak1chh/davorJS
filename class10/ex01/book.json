@@ -1,0 +1,17 @@
+{
+    "title":"Word of Rings",
+    "author":"John Ronald Reuel Tolwin",
+    "publicationYear":1985,
+    "isFiction": true,
+    "ganres":["Fantasy", "Sci-Fi"],
+    "publisher": {
+        "name": "Rayner Stephans Umrin",
+        "Location":"London"
+     },
+    "ratings":{
+        "reviews": 138,
+        "average": 4.9,
+    }
+
+    
+}
