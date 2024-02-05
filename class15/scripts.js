@@ -4,7 +4,8 @@ let btnShips =documenter.getElementById("btnShips");
 let buildTable = (param1, param2, param3, param4, param5, param6) =>
 { 
     return
-`<table>
+    `
+<table>
     <tr>
         <td>Name</td>
         <td>${param1}</td>
@@ -29,13 +30,8 @@ let buildTable = (param1, param2, param3, param4, param5, param6) =>
         <td>Appearance</td>
         <td>${param6}</td>
     </tr>
-</table>`
+</table> `
 }
-
-btnCharacters.addEventListener("click", () => 
-{
-function carachterApi("https://swapi.dev/api/people/?page=1",)
-});
 btnShips.addEventListener("click", () =>
 {
 
